@@ -1,49 +1,95 @@
-# History files
-.Rhistory
-.Rapp.history
+# Created by https://www.gitignore.io
 
-# Session Data files
-.RData
-.RDataTmp
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# User-specific files
-.Ruserdata
+# Icon must end with two \r
+Icon
 
-# Example code in package build process
-*-Ex.R
 
-# Output files from R CMD build
-/*.tar.gz
+# Thumbnails
+._*
 
-# Output files from R CMD check
-/*.Rcheck/
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-# RStudio files
-.Rproj.user/
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+# C extensions
+*.so
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# R Environment Variables
-.Renviron
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-# pkgdown site
-docs/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# translation temp files
-po/*~
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
 
-# RStudio Connect folder
-rsconnect/
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
+
+cashback_env/
+
+# Ignore all migration files except __init__.py
+**/migrations/*
+!**/migrations/__init__.py
